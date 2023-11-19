@@ -1,0 +1,49 @@
+﻿@page
+@model CiudadanosSanos.Pages.Consultas.EditsModel
+@{
+    ViewData["Title"] = "PEdit";
+}
+<h1>PEdit</h1>
+
+<h4>Consultas</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Consulta.Id" />
+            <div class="form-group">
+                <label asp-for="Consulta.Documento" class="control-label"></label>
+                <input asp-for="Consulta.Documento" class="form-control" />
+                <span asp-validation-for="Consulta.Documento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Consulta.Nombres" class="control-label"></label>
+                <input asp-for="Consulta.Nombres" class="form-control" />
+                <span asp-validation-for="Consulta.Nombres" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Consulta.Apellidos" class="control-label"></label>
+                <input asp-for="Consulta.Apellidos" class="form-control" />
+                <span asp-validation-for="Consulta.Apellidos" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Consulta.Descripcion" class="control-label"></label>
+                <input asp-for="Consulta.Descripcion" class="form-control" />
+                <span asp-validation-for="Consulta.Descripcion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-success" />
+                <a asp-page="./Index" class="btn btn-primary">Back to List</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+ 
