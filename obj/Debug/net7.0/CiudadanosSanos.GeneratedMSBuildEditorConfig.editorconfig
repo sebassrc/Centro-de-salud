@@ -56,6 +56,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/guia examen/CiudadanosSanos-master/Pages/Odontologias/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2RvbnRvbG9naWFzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/guia examen/CiudadanosSanos-master/Pages/Odontologias/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2RvbnRvbG9naWFzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/guia examen/CiudadanosSanos-master/Pages/Odontologias/Edidi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2RvbnRvbG9naWFzXEVkaWRpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/guia examen/CiudadanosSanos-master/Pages/Odontologias/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2RvbnRvbG9naWFzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/guia examen/CiudadanosSanos-master/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

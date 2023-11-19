@@ -1,0 +1,48 @@
+﻿@page
+@model CiudadanosSanos.Pages.Odontologias.EdidiModel
+@{
+    ViewData["Title"] = "Edidi";
+}
+<h1>Edidi</h1>
+
+<h4>Odontologia</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Odontologia.Id" />
+            <div class="form-group">
+                <label asp-for="Odontologia.Documento" class="control-label"></label>
+                <input asp-for="Odontologia.Documento" class="form-control" />
+                <span asp-validation-for="Odontologia.Documento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Odontologia.Nombres" class="control-label"></label>
+                <input asp-for="Odontologia.Nombres" class="form-control" />
+                <span asp-validation-for="Odontologia.Nombres" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Odontologia.Apellidos" class="control-label"></label>
+                <input asp-for="Odontologia.Apellidos" class="form-control" />
+                <span asp-validation-for="Odontologia.Apellidos" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Odontologia.Descripcion" class="control-label"></label>
+                <input asp-for="Odontologia.Descripcion" class="form-control" />
+                <span asp-validation-for="Odontologia.Descripcion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-success" />
+                <a asp-page="./Index" class="btn btn-primary">Back to List</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

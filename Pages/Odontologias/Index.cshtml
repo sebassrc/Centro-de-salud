@@ -1,0 +1,53 @@
+﻿@page
+@model CiudadanosSanos.Pages.Odontologias.IndexModel
+@{
+    ViewData["Title"] = "Providers";
+}
+<h1>Odontologias</h1>
+
+<p>
+    <a asp-page="Create" class="btn btn-success">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Odontologias[0].Documento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Odontologias[0].Nombres)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Odontologias[0].Apellidos)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Odontologias[0].Descripcion)
+            </th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Odontologias)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Documento)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nombres)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Apellidos)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Descripcion)
+                </td>
+                <td>
+                    <a asp-page="./Edidi" asp-route-id="@item.Id" class="btn btn-warning">Edit</a>
+                    <a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
