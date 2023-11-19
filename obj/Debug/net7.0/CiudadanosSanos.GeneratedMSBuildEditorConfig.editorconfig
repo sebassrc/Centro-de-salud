@@ -36,6 +36,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/guia examen/CiudadanosSanos-master/Pages/Hospitalizacions/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9zcGl0YWxpemFjaW9uc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/guia examen/CiudadanosSanos-master/Pages/Hospitalizacions/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9zcGl0YWxpemFjaW9uc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/guia examen/CiudadanosSanos-master/Pages/Hospitalizacions/Edits.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9zcGl0YWxpemFjaW9uc1xFZGl0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/guia examen/CiudadanosSanos-master/Pages/Hospitalizacions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9zcGl0YWxpemFjaW9uc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/guia examen/CiudadanosSanos-master/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

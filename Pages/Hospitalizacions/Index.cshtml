@@ -1,0 +1,41 @@
+﻿@page
+@model CiudadanosSanos.Pages.Hospitalizacions.IndexModel
+@{
+    ViewData["Title"] = "Hospitalizacion";
+}
+<h1>Hospitalizacions</h1>
+
+<p>
+    <a asp-page="Create" class="btn btn-success">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Hospitalizacions[0].Nombres)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Hospitalizacions[0].Descripcion)
+            </th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Hospitalizacions)
+        {
+                <tr>
+                    <td>
+                    @Html.DisplayFor(modelItem => item.Nombres)
+                    </td>
+                    <td>
+                    @Html.DisplayFor(modelItem => item.Descripcion)
+                    </td>
+                    <td>
+                        <a asp-page="./Edits" asp-route-id="@item.Id" class="btn btn-warning">Edit</a>
+                        <a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                    </td>
+                </tr>
+        }
+    </tbody>
+</table>
