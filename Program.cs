@@ -1,4 +1,4 @@
-
+using CiudadanosSanos.Data;
 using Microsoft.EntityFrameworkCore;
 
 namespace CiudadanosSanos
@@ -18,9 +18,11 @@ namespace CiudadanosSanos
             // Add services to the container.
             builder.Services.AddRazorPages();
 
-            
 
-     
+
+            builder.Services.AddDbContext<ConsultaContext>(options =>
+             options.UseSqlServer(builder.Configuration.GetConnectionString("SupermarketDB"))
+             );
 
             var app = builder.Build();
 

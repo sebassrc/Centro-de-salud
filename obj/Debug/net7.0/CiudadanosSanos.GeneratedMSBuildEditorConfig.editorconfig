@@ -16,14 +16,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\guia examen\CiudadanosSanos-master
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/guia examen/CiudadanosSanos-master/Pages/Account/Loginn.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dpbm4uY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/guia examen/CiudadanosSanos-master/Pages/Account/Logout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/guia examen/CiudadanosSanos-master/Pages/Consultas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc3VsdGFzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
